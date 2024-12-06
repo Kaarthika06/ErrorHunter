@@ -22,6 +22,7 @@ def guess_the_number():
         except ValueError:
             print("Invalid input! Please enter a valid number.")   
 
+
 def main():
     while True:
         print("\nMenu:")
