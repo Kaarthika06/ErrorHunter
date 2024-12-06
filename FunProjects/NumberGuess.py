@@ -1,13 +1,13 @@
 import random
 
 def guess_the_number():
-    print("Welcome to Guess the Number!")
+    print("\nWelcome to Guess the Number!")
     target = random.randint(1, 100)
     attempts = 0
     
     while True:
         try:
-            guess = input("Enter your guess (1-100): ")  
+            guess = int(input("Enter your guess (1-100): "))
             attempts += 1
             if guess < target:   
                 print("Too low!")
