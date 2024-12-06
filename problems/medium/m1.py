@@ -6,12 +6,12 @@ def math_operations_menu(choice):
     a, b = map(int, input("Enter two numbers(separated by commas): ").split(sep=","))
 
     if choice == 1:
-        print(f"Subtraction of {a} and {b}:{a - b}")   
-    elif choice == 2:
         print(f"Addition of {a} and {b}:{a + b}")   
-    elif choice == 3:
-        print(f"Division of {a} and {b}:{a / b}")   
+    elif choice == 2:
+        print(f"Subraction of {a} and {b}:{a - b}")   
     elif choice == 4:
+        print(f"Division of {a} and {b}:{a / b}")   
+    elif choice == 3:
         print(f"Multiplication of {a} and {b}:{a * b}")   
     elif choice == 5:
         print(f"Modulus of {a} and {b}:{a // b}")   
