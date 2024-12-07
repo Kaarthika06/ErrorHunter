@@ -19,6 +19,5 @@ def comp(array1, array2):
         return True
       
     return False
-  
- 
-comp([1,2,3,4], [1,4,9,16])
+result =comp([1,2,3,4], [1,4,9,16])
+print(result)

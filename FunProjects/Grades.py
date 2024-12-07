@@ -3,7 +3,7 @@ class StudentGrades:
         self.grades = {}
 
     def add_grade(self, student, grade):
-        self.grades[student] = grade
+    self.grades[student] = grade
 
     def calculate_average(self):
         total = sum(self.grades.values())
